@@ -1,0 +1,31 @@
+:root {
+    --background-color-theme1: rgb(195, 184, 184);
+    --btn-background-color-theme1: rgb(17, 236, 47);
+    --btn2-background-color-theme1: rgb(236, 17, 17);
+    --text-color-theme1: rgb(74, 171, 240);
+    --div-none-theme1: rgb(229, 245, 178);
+    --background-color-textarea-theme1: rgb(175, 106, 106);
+    --todoList-color-theme1: rgb(96, 101, 108);
+
+    --todoList-color-theme2: rgb(255, 9, 9);
+    --background-color-textarea-theme2: rgb(129, 172, 192);
+    --div-none-theme2: rgb(108, 145, 249);
+    --text-color-theme2: rgb(183, 101, 101);
+    --btn2-background-color-theme2: rgb(165, 52, 52);
+    --background-color-theme2: rgb(94, 88, 88);
+    --btn-background-color-theme2: rgb(83, 215, 98);
+
+
+    --background-color-textarea: var(--background-color-textarea-theme1) --div-none: var(--div-none-theme1);
+    --text-color: var(--text-color-theme1);
+    --btn-background-color: var(--btn-background-color-theme1);
+    --btn2-background-color: var(--btn2-background-color-theme1);
+    --background-color: var(--background-color-theme1);
+}
+
+.btntheme {
+    background-color: var(--div-none);
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
